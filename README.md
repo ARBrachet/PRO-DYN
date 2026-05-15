@@ -1,5 +1,9 @@
 # Time Series Forecasting Through the Lens of Dynamics - ICML 2026
 
+> [!IMPORTANT]
+> You can find the interactive version of this paper [here](https://arbrachet.github.io/PRO-DYN/), including 40+ TSF models analyzed through our dynamics-based nomenclature !
+
+
 This repository contains the code developed for the paper "Time Series Forecasting Through the Lens of Dynamics" accepted at ICML 2026. It is based on this [repository](https://github.com/decisionintelligence/TFB/tree/master), developed for the TFB benchmark (Qiu et al. 2024).
 
 ## Installation
