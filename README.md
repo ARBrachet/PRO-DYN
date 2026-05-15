@@ -1,6 +1,6 @@
-# Time-series forecasting through the lens of dynamics - ICML 2026
+# Time Series Forecasting Through the Lens of Dynamics - ICML 2026
 
-This repository contains the code developed for the paper "Time-series forecasting through the lens of dynamics" accepted at ICML 2026. It is based on this [repository](https://github.com/decisionintelligence/TFB/tree/master), developed for the TFB benchmark (Qiu et al. 2024).
+This repository contains the code developed for the paper "Time Series Forecasting Through the Lens of Dynamics" accepted at ICML 2026. It is based on this [repository](https://github.com/decisionintelligence/TFB/tree/master), developed for the TFB benchmark (Qiu et al. 2024).
 
 ## Installation
 
@@ -15,11 +15,11 @@ Please refer to the original [repository](https://github.com/decisionintelligenc
 
 ## Datasets
 
-All the datasets are accessible with the following link: [Google Drive](https://drive.google.com/file/d/1vgpOmAygokoUt235piWKUjfwao6KwLv7/view?usp=drive_link). Place the downloaded data under the folder `./dataset/forecasting/`. We provide it with the three lightest datasets ILI, NASDAQ and NYSE, with the meta data `FORECAST_META.scv` for the forecasting task, for convinience.
+All the datasets are accessible with the following link: [Google Drive](https://drive.google.com/file/d/1vgpOmAygokoUt235piWKUjfwao6KwLv7/view?usp=drive_link). Place the downloaded data under the folder `./dataset/forecasting/`. We provide it with the three lightest datasets ILI, NASDAQ and NYSE, with the metadata `FORECAST_META.scv` for the forecasting task, for convenience.
 
 ## Paper files description
 
-From the `.\ts_benchmark\baselines\time_series_library\` folder, the models are in the `models` folder. Each model has a method for a specific time-series task. The time-series forecasting is inditified by the methods `forecast` or `short_term_forecast`.
+From the `.\ts_benchmark\baselines\time_series_library\` folder, the models are in the `models` folder. Each model has a method for a specific time-series task. The time-series forecasting is identified by the methods `forecast` or `short_term_forecast`.
 
 ## Get started
 
@@ -46,8 +46,8 @@ Once a model is run, results are stored in the `.\result\arg(save_path)` folder,
 If you find this repo useful, please cite our paper.
 
 ```
-@misc{brachet2026timeseriesforecastinglensdynamics,
-      title={Time-series forecasting through the lens of dynamics}, 
+@misc{brachet2026timeseriesforecastinglens,
+      title={Time Series Forecasting Through the Lens of Dynamics}, 
       author={Alexis-Raja Brachet and Pierre-Yves Richard and Céline Hudelot},
       year={2026},
       eprint={2507.15774},
