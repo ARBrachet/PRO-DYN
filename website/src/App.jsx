@@ -349,11 +349,14 @@ export default function ProdynCompanionSite() {
     <main className="min-h-screen bg-[radial-gradient(circle_at_top_left,#eef6ff,transparent_34%),linear-gradient(180deg,#ffffff_0%,#f8fafc_60%,#eef2f7_100%)] text-slate-900">
       <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/80 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-5 py-3">
-          <div className="flex items-center gap-2 font-semibold tracking-tight">
-            <div className="flex h-8 w-24 items-center justify-center rounded-xl bg-slate-950 text-white">
-              ICML 2026
-            </div>
-            <span>TSF Through the Lens of Dynamics</span>
+          <div className="flex min-w-0 items-center gap-2 font-semibold tracking-tight">
+            <div className="inline-flex h-8 shrink-0 items-center justify-center whitespace-nowrap rounded-xl bg-slate-950 px-3 text-xs font-semibold tracking-wide text-white sm:text-sm">
+  ICML 2026
+</div>
+
+<span className="min-w-0 truncate text-sm sm:text-base">
+  TSF Through the Lens of Dynamics
+</span>
           </div>
 
           <nav className="hidden items-center gap-6 text-sm text-slate-600 md:flex">
